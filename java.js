@@ -16,7 +16,7 @@ millimeter.addEventListener('input',function(){
         emptyAllfields()
     }
     else{
-        centimeter.value=this.inputValue/10
+        centimeter.value=inputValue/10
         meter.value=inputValue/1000
         kilometer.value=inputValue/Math.pow(10,6)
         mile.value=inputValue/Math.pow(1.609,6)
